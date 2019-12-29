@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Master Branch in GitHub", Toast.LENGTH_SHORT).show();
+                tv.setText("This is Master Branch Changed by Branch01");
             }
         });
     }
