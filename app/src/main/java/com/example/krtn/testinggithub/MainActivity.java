@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Change in GitHub", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Master Branch in GitHub", Toast.LENGTH_SHORT).show();
             }
         });
     }
